@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run exam24 (Makefile)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}\\exam24.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "miDebuggerPath": "C:\\Strawberry\\c\\bin\\gdb.exe",
+      "preLaunchTask": "Build (Makefile)"
+    }
+  ]
+}
