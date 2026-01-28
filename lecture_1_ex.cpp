@@ -122,7 +122,7 @@ float calcAvg_Iter(std::vector<Person*> &input_vect)
 float calcAvg_nonIter(std::vector<Person*> &input_vect)
 {
     auto sum = 0;
-    for(auto i : input_vect)
+    for(const auto &i : input_vect)
     {
         sum += i->getAge();
     }
@@ -134,7 +134,7 @@ float calcAvg_nonIter(std::vector<Person*> &input_vect)
 void ex3(void)
 {
     //1
-    Person p1, p2, p3, p4, p5;  //implicit no-arg invocation of constructor
+    Person p1{"A",1}, p2{"B",2}, p3{"C",3}, p4{"D",4}, p5{"E",5};  //implicit no-arg invocation of constructor
     //2
     std::vector<Person*> persons;
     //3
@@ -147,11 +147,13 @@ void ex3(void)
     auto res1 = calcAvg_Iter(persons);
     auto res2 = calcAvg_nonIter(persons);
 
+    std::cout << "res1: " << res1 << std::endl;
+    std::cout << "res2: " << res2 << std::endl;
 
     //6 (3)
-    Person p6, p7, p8;
+    Person p6{"F",6}, p7{"G",7}, p8{"H",8};
     const size_t arrSize = 3;
-    Person*perArr[arrSize] = {
+    Person* perArr[arrSize] = {
         &p6,
         &p7,
         &p8};
@@ -162,7 +164,7 @@ void ex3(void)
 }
 int main(void)
 {
-    ex1();
+    // ex1();
     ex3();
 
     
