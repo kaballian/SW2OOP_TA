@@ -114,6 +114,7 @@ int main(void)
     Sensor sen2{log, sig2};
 
     sen1.detect(sig1);
+    sen2.detect(sig2);
 
 
 
@@ -134,8 +135,8 @@ int main(void)
     int* const cp = &c;
 
     *cp = 20;
-    int c2 = 40;
-    // cp = &c2; // the pointer is stuck here forever
+    int cc2 = 40;
+    // cp = &cc2; // the pointer is stuck here forever
 
     //const pointer to const data
     int d = 50;
