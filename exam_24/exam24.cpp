@@ -71,6 +71,7 @@ void opgave3(void)
     Parkeringsbøde pb1("lufthavn", 1000, dato1);
     Parkeringsbøde pb2("lufthavn", 1000, dato2);
     
+    
 
 }
 

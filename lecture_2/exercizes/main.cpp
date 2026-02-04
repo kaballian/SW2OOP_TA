@@ -6,6 +6,68 @@
 
 
 
+//const functions
+void f(const int x)
+{
+    // x is read only but is a copy - the same as void f(int x) 
+    // modification does not alter caller
+}
+//pass by reference to const
+void f2(const Signals& s)
+{
+    /**
+     * no copy
+     * func cannot modify s
+     * accepts both const and non const arguments
+     */
+}
+//pass by pointer
+void f3(const Signals* s)
+{
+    /**
+     * s may be nullptr
+     * func cannot modify *s
+     * 
+     * s = nullptr
+     * s->amp=5 is illigal 
+     */
+}
+
+/**
+ * class member
+ * void log(const Signals& s ) const
+ * arg s wont be modifed 
+ * member func wont modify class obj 
+ */
+
+void f4(const Signals& s)
+{
+/**
+ * calls to this function
+ * Signals a;
+ * cosnt Signals b;
+ * 
+ * f4(a)  is ok
+ * f4(b) is ok
+ */
+
+}
+
+void f5(const Signals& s)
+{
+/**
+ * calls to this function
+ * Signals a;
+ * cosnt Signals b;
+ * 
+ * f4(a)  is ok
+ * f4(b) is illegal
+ */
+
+}
+
+
+
 
 //exercise 2/3/4
 int main(void)
@@ -52,6 +114,55 @@ int main(void)
     Sensor sen2{log, sig2};
 
     sen1.detect(sig1);
+
+
+
+    //const and pointers
+
+    int a = 5;
+    int *ap = &a;
+
+    //pointer to const
+    int b = 4;
+    int const* bp = &b;
+    // *bp = 10; // not allowed
+    int b2 = 10;
+    bp = &b2;   // i promise not to modify what i point to
+    
+    //Const pointer
+    int c = 12;
+    int* const cp = &c;
+
+    *cp = 20;
+    int c2 = 40;
+    // cp = &c2; // the pointer is stuck here forever
+
+    //const pointer to const data
+    int d = 50;
+    const int* const dp = &d;
+    //*dp = 100; //not allowed
+    int d2 = 200; 
+    //dp = &d2; //not allowed   //hands off everything
+    //i cannot change what i point to and i cannot change is pointed to
+
+    /*
+    table               
+    int *p                  can be changed      can repoint
+    const int* p            cannot be changed   can repoint
+    int* const p            can be changed      cannot repoint      
+    const int* const p      cannot be changed   cannot repoint
+    */
+    
+    //read the declaration backwards
+    /**
+     * const int * const p
+     * p - is a const pointer, to a const int
+     */
+
+
+
+
+
 
     return 1;
 
