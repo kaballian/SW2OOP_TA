@@ -3,7 +3,7 @@
 
 
 const std::string Order_line::to_string(){
-    return this->item->name + "" + std::to_string(this->count) + "" + std::to_string(subTotal());
+    return this->item->name + " " + std::to_string(this->count) + " " + std::to_string(subTotal());
 }
 
 

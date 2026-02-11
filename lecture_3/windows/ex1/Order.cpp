@@ -6,7 +6,7 @@ void Order::next_sale(int order_id)
     lines.clear();
 }
 
-void Order::add_item(const Item* item, int count=1) 
+void Order::add_item(const Item* item, int count) 
 {
     for(std::vector<Order_line>::iterator it = this->lines.begin(); it != this->lines.end(); ++it)
     {
@@ -29,4 +29,16 @@ const double Order::total(){
     }
 
     return res;
+}
+
+const std::string Order::to_string()  
+{
+    std::string output;
+    output += "Register: " + std::to_string(this->register_id)+ "\n";
+    output += "Order id: " + std::to_string(this->id) + "\n";
+    for(std::vector<Order_line>::iterator it = this->lines.begin(); it != this->lines.end(); ++it)
+    {
+        output += it->to_string() + " ";
+    }
+    return output;
 }

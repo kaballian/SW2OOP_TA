@@ -9,7 +9,7 @@ private:
     const Item* item;
     int count = 1;
 public:
-    Order_line(); //no arg
+    
     Order_line(const Item* item, int count=1) : item(item), count(count){}
 
     const double subTotal() {return this->item->price * this->count;};
@@ -20,6 +20,5 @@ public:
     const std::string to_string();
 
     bool operator=(const Order_line& rhs) const;
-   
 
 };

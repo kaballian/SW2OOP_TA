@@ -14,8 +14,7 @@ private:
 public:
     Product_catalog();
 
-    void initialize_vector();
-    void reallocate_vector(const int size);
+   
     void add_item(int id, const std::string& name, double price);
-    const Item* get_item(int id);
+    const Item* get_item(int id)const;
 };
