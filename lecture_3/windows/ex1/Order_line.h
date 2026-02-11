@@ -16,7 +16,7 @@ public:
     const int getItemId() {return this->item->id;};
 
     void add(int count) {this->count += count;};
-
+    const Item* getItem() {return item;}
     const std::string to_string();
 
     bool operator=(const Order_line& rhs) const;
