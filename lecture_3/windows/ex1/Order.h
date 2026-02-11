@@ -14,7 +14,7 @@ class Order{
     Order(); // no arg
     Order(int register_id) : register_id(register_id){}
     void next_sale(int order_id);
-    void add_item(const Item* item);
+    void add_item(const Item* item, int count =1);
     const double total();
     std::string to_string() const;
 

@@ -13,7 +13,7 @@ public:
     Order_line(const Item* item, int count=1) : item(item), count(count){}
 
     const double subTotal() {return this->item->price * this->count;};
-    const int getItemCd() {return this->item->id;};
+    const int getItemId() {return this->item->id;};
 
     void add(int count) {this->count += count;};
 
