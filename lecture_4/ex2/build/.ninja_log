@@ -1,0 +1,22 @@
+# ninja log v6
+19	44	7931370778541361	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_4/ex2/build/CMakeFiles/cmake.verify_globs	51f7281ec17f96d8
+45	271	7931370778797390	CMakeFiles/MyProject.dir/main.cpp.obj	d1809918b0aa4988
+274	355	7931370781081799	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_4/ex2/MyProject.exe	6804e9eda8333e60
+48	73	7931564815041890	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_4/ex2/build/CMakeFiles/cmake.verify_globs	51f7281ec17f96d8
+76	1359	7931564815314735	CMakeFiles/MyProject.dir/main.cpp.obj	d1809918b0aa4988
+1360	1621	7931564828164643	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_4/ex2/MyProject.exe	6804e9eda8333e60
+15	33	7931566387620169	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_4/ex2/build/CMakeFiles/cmake.verify_globs	51f7281ec17f96d8
+35	263	7931566387817607	CMakeFiles/MyProject.dir/main.cpp.obj	d1809918b0aa4988
+264	336	7931566390105516	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_4/ex2/MyProject.exe	6804e9eda8333e60
+17	36	7931566558619297	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_4/ex2/build/CMakeFiles/cmake.verify_globs	51f7281ec17f96d8
+38	265	7931566558822102	CMakeFiles/MyProject.dir/main.cpp.obj	d1809918b0aa4988
+266	339	7931566561112481	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_4/ex2/MyProject.exe	6804e9eda8333e60
+18	36	7931568507476313	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_4/ex2/build/CMakeFiles/cmake.verify_globs	51f7281ec17f96d8
+38	294	7931568507672061	CMakeFiles/MyProject.dir/main.cpp.obj	d1809918b0aa4988
+295	367	7931568510241217	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_4/ex2/MyProject.exe	6804e9eda8333e60
+16	34	7931568581603164	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_4/ex2/build/CMakeFiles/cmake.verify_globs	51f7281ec17f96d8
+37	276	7931568581805140	CMakeFiles/MyProject.dir/main.cpp.obj	d1809918b0aa4988
+277	349	7931568584211357	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_4/ex2/MyProject.exe	6804e9eda8333e60
+15	34	7931568649954456	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_4/ex2/build/CMakeFiles/cmake.verify_globs	51f7281ec17f96d8
+36	272	7931568650156622	CMakeFiles/MyProject.dir/main.cpp.obj	d1809918b0aa4988
+274	345	7931568652539494	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_4/ex2/MyProject.exe	6804e9eda8333e60
