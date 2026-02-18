@@ -1,0 +1,3 @@
+C:/AU/SW2OOP_TA/lecture_4/ex1/build/CMakeFiles/MyProject.dir
+C:/AU/SW2OOP_TA/lecture_4/ex1/build/CMakeFiles/edit_cache.dir
+C:/AU/SW2OOP_TA/lecture_4/ex1/build/CMakeFiles/rebuild_cache.dir
