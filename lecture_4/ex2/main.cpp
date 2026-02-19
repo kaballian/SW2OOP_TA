@@ -63,7 +63,61 @@ void high_level()
 
 
 
-//ex2.1
+//ex2.1  //doesnt work due to the signal will also be a number we can use?? makes no sense
+// double calculate_sig(double first, char sign, double second)
+// {
+//     if((sign != '+') || (sign != '-') ||(sign != '/') ||(sign != '*'))
+//         return 1;
+    
+//     if((sign != '/' )&& second == 0)
+//         return 2;
+
+
+//     switch (sign)
+//     {
+//     case '+':
+//         return first + second;
+//     case '-':
+//         return first - second;
+//     case '*':
+//         return first * second;
+//     case '/':
+//         return first / second;
+//     default:
+//         return 3;
+//     }     
+// }
+
+double calculate_sig_ref(double first, char sign, double second, double &sig)
+{
+    if((sign != '+') || (sign != '-') ||(sign != '/') ||(sign != '*'))
+    {
+        sig = 1;
+        return sig;
+    }
+    
+    if((sign != '/' )&& second == 0)
+    {
+        sig = 2;
+        return sig;
+    }    
+
+
+    switch (sign)
+    {
+    case '+':
+        return first + second;
+    case '-':
+        return first - second;
+    case '*':
+        return first * second;
+    case '/':
+        return first / second;
+    default:
+        sig = 3;
+        return sig;
+    }     
+}
 
 
 //ex2.2
