@@ -15,7 +15,7 @@ void int_array::push_back(int val)
     {
         int newSize = head_+1;
         int *temp = new int[newSize]; // allocate new array +1
-        std::copy(*array_, head_, temp);
+        std::copy(array_, array_ + head_, temp);
         
         //free memory
         delete[] array_;
@@ -39,4 +39,13 @@ const std::string int_array::to_string()
     return output;
 }
 
+const int int_array::get_size()
+{
+    return this->head_;
+}
+
+const int int_array::get_array_size()
+{
+    return this->size_;
+}
 

@@ -11,7 +11,7 @@ class int_array
 
     public:
     int_array(int initialSize, int re_alloc_size);
-    ~int_array();
+    ~int_array() {delete[] array_;}
 
     void push_back(int val);
     const std::string to_string();
