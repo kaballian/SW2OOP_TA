@@ -1,13 +1,13 @@
 #pragma once
 #include <string>
-
+#include <algorithm>
 class int_array
 {
     private:
-    int size_;
-    int head_;
-    int re_alloc_size;
-    int *array_;
+    int size_; //size of the array
+    int head_; //index of the latest addition
+    int re_alloc_size; //new size of array
+    int *array_; //the array lule
 
     public:
     int_array(int initialSize, int re_alloc_size);
