@@ -1,0 +1,7 @@
+# ninja log v7
+6	59	7936356904383892	C:/AU/SW2OOP_TA/lecture_5/ex1/build/CMakeFiles/cmake.verify_globs	d643de671e30d723
+60	570	7936356904923823	CMakeFiles/MyProject.dir/main.cpp.obj	453a9609a0eb538
+578	802	7936356910105602	C:/AU/SW2OOP_TA/lecture_5/ex1/MyProject.exe	6dc8657a3ce8bc3c
+9	88	7936357036778949	C:/AU/SW2OOP_TA/lecture_5/ex1/build/CMakeFiles/cmake.verify_globs	d643de671e30d723
+126	654	7936357037948254	CMakeFiles/MyProject.dir/main.cpp.obj	453a9609a0eb538
+655	871	7936357043238250	C:/AU/SW2OOP_TA/lecture_5/ex1/MyProject.exe	6dc8657a3ce8bc3c
