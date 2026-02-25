@@ -16,6 +16,12 @@ void int_array::push_back(int val)
         int newSize = head_+1;
         int *temp = new int[newSize]; // allocate new array +1
         std::copy(array_, array_ + head_, temp);
+
+        //or could be - but std:: templates are cooler
+        // for(int i = 0; i < head_; i++)
+        // {
+        //     temp[i] = array_[i];
+        // } 
         
         //free memory
         delete[] array_;

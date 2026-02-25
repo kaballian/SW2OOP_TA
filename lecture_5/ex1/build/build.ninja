@@ -44,6 +44,13 @@ cmake_ninja_workdir = C$:/AU/SW2OOP_TA/lecture_5/ex1/build/
 
 build cmake_object_order_depends_target_MyProject: phony || .
 
+build CMakeFiles/MyProject.dir/cat_array.cpp.obj: CXX_COMPILER__MyProject_unscanned_ C$:/AU/SW2OOP_TA/lecture_5/ex1/cat_array.cpp || cmake_object_order_depends_target_MyProject
+  DEP_FILE = CMakeFiles\MyProject.dir\cat_array.cpp.obj.d
+  FLAGS = -std=c++17 -Wall -Wextra
+  OBJECT_DIR = CMakeFiles\MyProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\MyProject.dir
+  TARGET_SUPPORT_DIR = CMakeFiles\MyProject.dir
+
 build CMakeFiles/MyProject.dir/int_array.cpp.obj: CXX_COMPILER__MyProject_unscanned_ C$:/AU/SW2OOP_TA/lecture_5/ex1/int_array.cpp || cmake_object_order_depends_target_MyProject
   DEP_FILE = CMakeFiles\MyProject.dir\int_array.cpp.obj.d
   FLAGS = -std=c++17 -Wall -Wextra
@@ -66,7 +73,7 @@ build CMakeFiles/MyProject.dir/main.cpp.obj: CXX_COMPILER__MyProject_unscanned_ 
 #############################################
 # Link the executable C:\AU\SW2OOP_TA\lecture_5\ex1\MyProject.exe
 
-build C$:/AU/SW2OOP_TA/lecture_5/ex1/MyProject.exe: CXX_EXECUTABLE_LINKER__MyProject_ CMakeFiles/MyProject.dir/int_array.cpp.obj CMakeFiles/MyProject.dir/main.cpp.obj
+build C$:/AU/SW2OOP_TA/lecture_5/ex1/MyProject.exe: CXX_EXECUTABLE_LINKER__MyProject_ CMakeFiles/MyProject.dir/cat_array.cpp.obj CMakeFiles/MyProject.dir/int_array.cpp.obj CMakeFiles/MyProject.dir/main.cpp.obj
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\MyProject.dir
   POST_BUILD = cd .

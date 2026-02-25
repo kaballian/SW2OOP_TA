@@ -4,6 +4,7 @@
 # SRC_FILES at CMakeLists.txt:11 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/AU/SW2OOP_TA/lecture_5/ex1/*.cpp")
 set(OLD_GLOB
+  "C:/AU/SW2OOP_TA/lecture_5/ex1/cat_array.cpp"
   "C:/AU/SW2OOP_TA/lecture_5/ex1/int_array.cpp"
   "C:/AU/SW2OOP_TA/lecture_5/ex1/main.cpp"
   )
