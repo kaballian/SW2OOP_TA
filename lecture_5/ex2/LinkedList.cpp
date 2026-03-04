@@ -7,12 +7,7 @@ LinkedList::LinkedList() : size_(0)
 
 }
 
-void LinkedList::insert_front(const cat& obj)
-{
-    Link* temp_link = new Link{obj};
-    this->head.set_next(temp_link);
-    size_++;
-}
+
 LinkedList::~LinkedList()
 {
     /*methodology - it very badly worded in the excersize
@@ -71,3 +66,59 @@ Link* LinkedList::get(int index)
         std::cout << e.what()<< std::endl;
     }
 }
+void LinkedList::insert_front(const cat& obj)
+{
+    Link* temp_link = new Link{obj};
+    //new link points to current first link
+    temp_link->set_next(head.get_next());
+
+    this->head.set_next(temp_link);
+    size_++;
+}
+
+void LinkedList::insert_after(const cat& obj, Link* after)
+{   
+    /*
+    this function aims to insert A link between existing links
+    its just badly worded
+    A---B----C----D 
+    suppose link* after points to B
+    final result will be
+    A--B--X--C---D
+
+    create a new link whose next points to the after links nxt
+
+    after (B) --> next = C
+
+    firstly make X -> C
+
+    "after links" next argument must be the newly created link
+    after->next = new_link => B->X
+    */
+
+    Link* new_link = new Link(obj);
+    new_link->set_next(after->get_next());
+    after->set_next(new_link);
+    
+    size_++;
+
+}
+std::string LinkedList::to_string()
+{
+    
+    if(size_ <= 0 || head.get_next() == nullptr)
+    {
+        return "nothing";
+    }
+    std::string res= "";
+    Link* it = head.get_next();
+    while(it != nullptr)
+    {
+        res += it->get_data()->to_string() + "\n";
+        it = it->get_next();
+        
+    }
+    return res.empty() ? "nothing" : res;
+}
+        
+    

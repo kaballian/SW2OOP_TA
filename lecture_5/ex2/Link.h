@@ -1,6 +1,7 @@
 #pragma once
 #include <string>
-#include "../cat.h"
+#include "cat.h"  
+
 class Link
 {
 

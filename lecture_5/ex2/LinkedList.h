@@ -14,14 +14,14 @@ public:
     void insert_front(const cat& obj);
     void delete_front(void);
 
-    void insert_after(const cat& obj, Link& link);
+    void insert_after(const cat& obj, Link* link);
     void delete_after();
 
     Link* get(int index);
 
     const int size(void) const {return this->size_;}
 
-    std::string to_string()const;
+    std::string to_string();
 
 
 };
