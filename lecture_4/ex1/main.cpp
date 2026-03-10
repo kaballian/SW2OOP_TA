@@ -6,6 +6,8 @@
 
 int main(void)
 {
+    
+    
     // std::random_device rd_;
     // std::mt19937 mt_{rd_()};
     // std::uniform_int_distribution<int> dist_(1,6);

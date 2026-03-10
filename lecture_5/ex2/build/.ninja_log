@@ -1,4 +1,18 @@
-# ninja log v7
-6	60	7937226983842784	C:/AU/SW2OOP_TA/lecture_5/ex2/build/CMakeFiles/cmake.verify_globs	8d9a7be431c70e95
-61	678	7937226984387407	CMakeFiles/MyProject.dir/main.cpp.obj	6f3dc52e955b94ec
-684	903	7937226990620232	C:/AU/SW2OOP_TA/lecture_5/ex2/MyProject.exe	c81be1bb61062b0a
+# ninja log v6
+15	38	7943627570939790	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_5/ex2/build/CMakeFiles/cmake.verify_globs	d40cef7268fd6eea
+39	420	7943627571176947	CMakeFiles/MyProject.dir/Link.cpp.obj	2fb9c7e0902528b3
+44	433	7943627571231448	CMakeFiles/MyProject.dir/main.cpp.obj	461e4d130d9a2c8a
+42	464	7943627571196988	CMakeFiles/MyProject.dir/LinkedList.cpp.obj	7d387a2f64eeb29c
+468	577	7943627575495146	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_5/ex2/MyProject.exe	d4e77c709406ed31
+14	33	7943628512175570	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_5/ex2/build/CMakeFiles/cmake.verify_globs	d40cef7268fd6eea
+53	323	7943628512564526	CMakeFiles/MyProject.dir/main.cpp.obj	461e4d130d9a2c8a
+324	403	7943628515313960	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_5/ex2/MyProject.exe	d4e77c709406ed31
+13	32	7943629705183168	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_5/ex2/build/CMakeFiles/cmake.verify_globs	d40cef7268fd6eea
+35	348	7943629705404743	CMakeFiles/MyProject.dir/LinkedList.cpp.obj	7d387a2f64eeb29c
+349	426	7943629708571451	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_5/ex2/MyProject.exe	d4e77c709406ed31
+13	33	7943629877161520	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_5/ex2/build/CMakeFiles/cmake.verify_globs	d40cef7268fd6eea
+35	339	7943629877374746	CMakeFiles/MyProject.dir/LinkedList.cpp.obj	7d387a2f64eeb29c
+340	419	7943629880450925	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_5/ex2/MyProject.exe	d4e77c709406ed31
+13	33	7943630313597893	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_5/ex2/build/CMakeFiles/cmake.verify_globs	d40cef7268fd6eea
+35	310	7943630313816892	CMakeFiles/MyProject.dir/main.cpp.obj	461e4d130d9a2c8a
+311	388	7943630316612296	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_5/ex2/MyProject.exe	d4e77c709406ed31
