@@ -7,13 +7,10 @@ int_array::int_array(int initial_size, int re_alloc_size) :
 
 //copy constructor
 int_array::int_array(const int_array& other)
+    : size_(other.size_), head_(other.head_), re_alloc_size_(other.re_alloc_size_),
+    array_(new int[other.size_])
 {
-        /*
-        check if the pointer is already the same*/
-        // delete [] array_;
-        size_ = other.size_;
-        array_ = new int[size_];
-        //use std::copy - because im lazy, and its faster and safer
+        
         std::copy(other.array_, other.array_ + size_, array_);
 
     

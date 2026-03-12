@@ -7,9 +7,15 @@ cat_array::cat_array(int initial_size, int re_alloc_size)
 }
 //copy constructor
 cat_array::cat_array(const cat_array & rhs) 
-: size_(rhs.size_), head_(rhs.head_), re_alloc_size_(rhs.re_alloc_size_) 
+    : size_(rhs.size_), head_(rhs.head_), re_alloc_size_(rhs.re_alloc_size_), 
+    array_(new cat*[rhs.size_])
 {
-    array_ = new cat*[size_];
+    
+    for(int i = 0; i < size_; ++i)
+    {
+        array_[i] = nullptr;
+    }
+
     for(int i = 0; i < size_; i++)
     {
         /*
@@ -21,33 +27,48 @@ cat_array::cat_array(const cat_array & rhs)
 
 cat_array& cat_array::operator=(const cat_array& rhs)
 {
-    if(this == &rhs) //if the addresses are the same
+
+
+    if(this != &rhs)
     {
-        return *this;
+        cat** new_array = new cat*[rhs.size_];
+
+        for(int i = 0; i < rhs.size_; ++i)
+        {
+            new_array[i] = nullptr;
+        }
+        //deep copy
+        for(int i = 0; i < rhs.head_; ++i)
+        {
+            new_array[i] = new cat(*rhs.array_[i]);
+        }
+
+        for(int i = 0; i < head_; ++i)
+        {
+            delete array_[i];
+        }
+        delete[] array_;
+
+        size_ = rhs.size_;
+        head_ = rhs.head_;
+        re_alloc_size_ = rhs.re_alloc_size_;
+        array_ = new_array;
+
+
     }
-
-    //free old memory
-    for(int i = 0; i < size_; i++)
-    {
-        delete array_[i]; //delete each of the pointed objects
-    }
-    delete [] array_; //delete the pointer to the first element
-
-
-
-    size_ = rhs.size_;
-    head_ = rhs.head_;
-    re_alloc_size_ = rhs.re_alloc_size_;
-
-    for(int i = 0; i < size_; i++)
-    {
-        array_[i] = new cat(*rhs.array_[i]);
-    }
-
-
+    
     return *this;
-
 }
+
+cat_array::~cat_array()
+{
+    for(int i = 0; i < head_; ++i)
+    {
+        delete array_[i];
+    }
+    delete array_;
+}
+
 int cat_array::get_size() const {
     return head_;
 }
