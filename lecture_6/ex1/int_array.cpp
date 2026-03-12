@@ -25,15 +25,24 @@ int_array& int_array::operator=(const int_array& rhs)
     /*check if already assigned*/
     if(this != &rhs)
     {
+        int* new_array = new int[rhs.size_];
+        std::copy(rhs.array_, rhs.array_ + size_, new_array);
+
         delete[]array_;
+
         size_ = rhs.size_;
-        array_= new int[size_];
-        std::copy(rhs.array_, rhs.array_ + size_, array_);
+        head_ = rhs.head_;
+        re_alloc_size_ = rhs.re_alloc_size_;
+        array_ = new_array;
     }
     return *this; /*return this pointer*/
 }
     
-
+//destructor
+int_array::~int_array()
+{
+    delete[] array_;
+}
 
 
 void int_array::push_back(int value) {
