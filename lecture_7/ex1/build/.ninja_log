@@ -1,4 +1,15 @@
-# ninja log v7
-6	64	7954500516020369	C:/AU/SW2OOP_TA/lecture_7/ex1/build/CMakeFiles/cmake.verify_globs	2a493880d871cd93
-65	596	7954500516615385	CMakeFiles/MyProject.dir/main.cpp.obj	8c622fb5cb6ac1ed
-601	801	7954500521973232	C:/AU/SW2OOP_TA/lecture_7/ex1/MyProject.exe	1c491fa92af0e837
+# ninja log v6
+961	1075	7955665489633406	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_7/ex1/MyProject.exe	d12a929022dbb9e2
+48	958	7955665480505911	CMakeFiles/MyProject.dir/main.cpp.obj	522657d9490cc52d
+30	49	7955688170217841	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_7/ex1/build/CMakeFiles/cmake.verify_globs	d2aa4bc776115bb3
+49	161	7955688171091428	build.ninja	23e77945eb2c9e4e
+15	36	7955688171519417	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_7/ex1/build/CMakeFiles/cmake.verify_globs	d2aa4bc776115bb3
+51	301	7955688171894879	CMakeFiles/MyProject.dir/matrix.cpp.obj	d04a2da6523ca331
+47	383	7955688171858843	CMakeFiles/MyProject.dir/main.cpp.obj	522657d9490cc52d
+13	31	7955688610920056	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_7/ex1/build/CMakeFiles/cmake.verify_globs	d2aa4bc776115bb3
+37	210	7955688611160213	CMakeFiles/MyProject.dir/matrix.cpp.obj	d04a2da6523ca331
+34	311	7955688611130143	CMakeFiles/MyProject.dir/main.cpp.obj	522657d9490cc52d
+14	32	7955690258441487	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_7/ex1/build/CMakeFiles/cmake.verify_globs	d2aa4bc776115bb3
+37	217	7955690258683048	CMakeFiles/MyProject.dir/matrix.cpp.obj	d04a2da6523ca331
+34	293	7955690258652802	CMakeFiles/MyProject.dir/main.cpp.obj	522657d9490cc52d
+294	364	7955690261249959	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_7/ex1/MyProject.exe	c56f7322c2e959d6
