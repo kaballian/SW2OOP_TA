@@ -1,0 +1,15 @@
+# ninja log v6
+274	342	7955728222246183	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_7/ex_a/MyProject.exe	a8cdd0046a62b319
+40	264	7955728219907899	CMakeFiles/MyProject.dir/main.cpp.obj	e2838f70349125b3
+16	35	7955735863276523	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_7/ex_a/build/CMakeFiles/cmake.verify_globs	68b800e5d1c1aefe
+35	148	7955735864165119	build.ninja	c23a2726e5298581
+14	38	7955735864593721	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_7/ex_a/build/CMakeFiles/cmake.verify_globs	68b800e5d1c1aefe
+40	403	7955735864859777	CMakeFiles/MyProject.dir/Resistor.cpp.obj	734e308f0f81354d
+43	433	7955735864890465	CMakeFiles/MyProject.dir/main.cpp.obj	e2838f70349125b3
+435	515	7955735868794132	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_7/ex_a/MyProject.exe	77cabce02efaa4ba
+13	32	7955736001271993	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_7/ex_a/build/CMakeFiles/cmake.verify_globs	68b800e5d1c1aefe
+35	261	7955736001494843	CMakeFiles/MyProject.dir/Resistor.cpp.obj	734e308f0f81354d
+262	339	7955736003804293	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_7/ex_a/MyProject.exe	77cabce02efaa4ba
+13	32	7955736078233304	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_7/ex_a/build/CMakeFiles/cmake.verify_globs	68b800e5d1c1aefe
+34	259	7955736078446355	CMakeFiles/MyProject.dir/Resistor.cpp.obj	734e308f0f81354d
+260	336	7955736080702672	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_7/ex_a/MyProject.exe	77cabce02efaa4ba

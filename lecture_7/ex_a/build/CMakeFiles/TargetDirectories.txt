@@ -1,0 +1,3 @@
+C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_7/ex_a/build/CMakeFiles/MyProject.dir
+C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_7/ex_a/build/CMakeFiles/edit_cache.dir
+C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_7/ex_a/build/CMakeFiles/rebuild_cache.dir
