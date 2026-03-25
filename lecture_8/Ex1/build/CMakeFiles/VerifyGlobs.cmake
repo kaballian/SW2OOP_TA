@@ -6,6 +6,8 @@ cmake_policy(SET CMP0009 NEW)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_8/Ex1/*.cpp")
 set(OLD_GLOB
   "C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_8/Ex1/Person.cpp"
+  "C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_8/Ex1/cat.cpp"
+  "C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_8/Ex1/cat_array.cpp"
   "C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_8/Ex1/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")

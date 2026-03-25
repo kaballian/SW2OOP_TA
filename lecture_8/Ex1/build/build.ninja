@@ -50,6 +50,18 @@ build CMakeFiles/MyProject.dir/Person.cpp.obj: CXX_COMPILER__MyProject_unscanned
   OBJECT_DIR = CMakeFiles\MyProject.dir
   OBJECT_FILE_DIR = CMakeFiles\MyProject.dir
 
+build CMakeFiles/MyProject.dir/cat.cpp.obj: CXX_COMPILER__MyProject_unscanned_ C$:/Users/alext/Documents/AU/SW2OOP_F26/lecture_8/Ex1/cat.cpp || cmake_object_order_depends_target_MyProject
+  DEP_FILE = CMakeFiles\MyProject.dir\cat.cpp.obj.d
+  FLAGS = -std=c++17 -Wall -Wextra
+  OBJECT_DIR = CMakeFiles\MyProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\MyProject.dir
+
+build CMakeFiles/MyProject.dir/cat_array.cpp.obj: CXX_COMPILER__MyProject_unscanned_ C$:/Users/alext/Documents/AU/SW2OOP_F26/lecture_8/Ex1/cat_array.cpp || cmake_object_order_depends_target_MyProject
+  DEP_FILE = CMakeFiles\MyProject.dir\cat_array.cpp.obj.d
+  FLAGS = -std=c++17 -Wall -Wextra
+  OBJECT_DIR = CMakeFiles\MyProject.dir
+  OBJECT_FILE_DIR = CMakeFiles\MyProject.dir
+
 build CMakeFiles/MyProject.dir/main.cpp.obj: CXX_COMPILER__MyProject_unscanned_ C$:/Users/alext/Documents/AU/SW2OOP_F26/lecture_8/Ex1/main.cpp || cmake_object_order_depends_target_MyProject
   DEP_FILE = CMakeFiles\MyProject.dir\main.cpp.obj.d
   FLAGS = -std=c++17 -Wall -Wextra
@@ -64,7 +76,7 @@ build CMakeFiles/MyProject.dir/main.cpp.obj: CXX_COMPILER__MyProject_unscanned_ 
 #############################################
 # Link the executable C:\Users\alext\Documents\AU\SW2OOP_F26\lecture_8\Ex1\MyProject.exe
 
-build C$:/Users/alext/Documents/AU/SW2OOP_F26/lecture_8/Ex1/MyProject.exe: CXX_EXECUTABLE_LINKER__MyProject_ CMakeFiles/MyProject.dir/Person.cpp.obj CMakeFiles/MyProject.dir/main.cpp.obj
+build C$:/Users/alext/Documents/AU/SW2OOP_F26/lecture_8/Ex1/MyProject.exe: CXX_EXECUTABLE_LINKER__MyProject_ CMakeFiles/MyProject.dir/Person.cpp.obj CMakeFiles/MyProject.dir/cat.cpp.obj CMakeFiles/MyProject.dir/cat_array.cpp.obj CMakeFiles/MyProject.dir/main.cpp.obj
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\MyProject.dir
   POST_BUILD = cd .
