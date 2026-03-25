@@ -133,3 +133,19 @@ hvordan add<int> ser ud så den kan compileren den spicifikke version
 så det er ikke linker problem, men et compile-time visiblity problem
 
 */
+
+/*
+ex5
+a write index operator means:
+s[1] = value
+
+but suppose a set can exist, {2,5,9}, 
+if we do
+s[1] = 9
+then the set becomes {2,9,9} 
+then duplicates exists, and the set is no longer unique.
+
+its not consistent because [] allows us to change
+a set element without regards for the sets "integrity"
+meaning we void the uniquenes of the set.
+*/
