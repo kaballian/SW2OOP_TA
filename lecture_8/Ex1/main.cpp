@@ -5,7 +5,11 @@
 #include "Person.h"
 #include "string"
 #include "dyn_array.h"
-#define OPG_NR 4
+#include "set.h"
+#include "cust_type.h"
+#define OPG_NR 5
+
+
 
 
 int main(void)
@@ -73,6 +77,25 @@ int main(void)
             std::cout << "person: " << arr.get(i).to_string() << std::endl;
         }
 
+        dyn_array<int> arr2(5,2);
+        std::cout << "\n --- test 2 --- \n" << std::endl;
+        
+
+
+    #elif OPG_NR == 5
+        
+        CUST_TYPE t1;
+        CUST_TYPE t2(520, 1119);
+
+        Set<CUST_TYPE> s1;
+        s1.push_back(t1);
+        s1.push_back(t2);
+
+        for(int i = 0; i < s1.size(); i++)
+        {
+            
+            std::cout << s1[i].to_string() << std::endl;
+        }
 
     #endif
 
