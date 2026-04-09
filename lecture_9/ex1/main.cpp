@@ -4,9 +4,9 @@
 #include "Person.h"
 #include <deque>
 #include <list>
-
-
-#define ex_num 2
+#include <set>
+#include <map>
+#define ex_num 4
 
 int main(void)
 {
@@ -55,6 +55,54 @@ int main(void)
    {
     std::cout << *it << "\n";
    }
+
+#elif ex_num == 3
+
+std::set<Person> Sperp;
+//no copies, construct in place
+   Sperp.emplace(1,"alex");
+   Sperp.emplace(2,"simon");
+   Sperp.emplace(4,"max");
+   Sperp.emplace(3,"drazen");
+
+
+   for(std::set<Person>::iterator it = Sperp.begin(); it != Sperp.end(); it++)
+   {
+    std::cout << *it << "\n";
+   }
+
+#elif ex_num == 4
+
+   struct cat{
+    int ear_tag;
+    std::string name;
+    std::string address;
+   };
+
+   std::map<int, cat> cats;
+
+   cats.emplace(1, cat{20,"Boerge","stejlbjerg alle 27"});
+   cats.emplace(2, cat{20,"cesare","stejlberjg alle 27"});
+   cats.emplace(3, cat{20,"coco", "jels søndergade 21"});
+
+   std::cout << cats[3].address << "\n";
+
+   cats.erase(2);
+
+   try
+   {
+    std::cout << cats.at(10).address << "\n";
+   }
+   catch(const std::out_of_range& e)
+   {
+    std::cout << "key 10 not found" << std::endl;
+   }
+
+   for(const auto& [key, value] : cats)
+   {
+    std::cout << value.name << std::endl;
+   }
+
 
 #endif
     return 1;
