@@ -14,14 +14,22 @@ public:
     double getX(void) const{return x;}
     double getY(void) const{return y;}
 
-    void setX(double x) {this->x = x;}
-    void setX(double u) {this->y = u;}
+    void setX(double x){this->x = x;}
+    void setY(double y){this->y = y;}
 
-    vect& operator+(const vect& rhs)
+    vect operator+(const vect& rhs)
     {
         vect res(this->x + rhs.x, this->y + rhs.y);
         return res;
     }
+
+    vect& operator+=(const vect& rhs)
+    {
+        this->x += rhs.x;
+        this->y += rhs.y;
+        return *this;
+    }
+
 
     std::string to_string(void);
     

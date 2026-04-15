@@ -1,7 +1,27 @@
-# ninja log v7
-10	89	7978673536028403	C:/AU/SW2OOP_TA/lecture_10/ex14/build/CMakeFiles/cmake.verify_globs	1654e3958147c4a2
-63	655	7978653124692789	CMakeFiles/MyProject.dir/main.cpp.obj	d5eada43332df696
-660	854	7978653130676166	C:/AU/SW2OOP_TA/lecture_10/ex14/MyProject.exe	2a6ed4f3e8615f9c
-90	398	7978673538893150	build.ninja	cb1f3e70ec24fdf8
-90	398	7978673538893150	C:/AU/SW2OOP_TA/lecture_10/ex14/build/cmake_install.cmake	cb1f3e70ec24fdf8
-3	123	7978673539277330	C:/AU/SW2OOP_TA/lecture_10/ex14/build/CMakeFiles/cmake.verify_globs	1654e3958147c4a2
+# ninja log v6
+7	27	7979885207720574	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_10/ex14/build/CMakeFiles/cmake.verify_globs	727967e1970bea20
+27	140	7979885208639364	build.ninja	8ece2d30598d8a04
+16	39	7979885209069458	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_10/ex14/build/CMakeFiles/cmake.verify_globs	727967e1970bea20
+6	27	7979885876066412	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_10/ex14/build/CMakeFiles/cmake.verify_globs	727967e1970bea20
+6	25	7979886075781132	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_10/ex14/build/CMakeFiles/cmake.verify_globs	727967e1970bea20
+7	27	7979886665172715	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_10/ex14/build/CMakeFiles/cmake.verify_globs	727967e1970bea20
+36	276	7979886665476910	CMakeFiles/MyProject.dir/main.cpp.obj	bc661d18b2c2699
+40	289	7979886665514208	CMakeFiles/MyProject.dir/vect_3.cpp.obj	ff27fe6813755fd6
+290	400	7979886668008868	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_10/ex14/MyProject.exe	b2c799dc12e80279
+12	30	7979888950513435	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_10/ex14/build/CMakeFiles/cmake.verify_globs	727967e1970bea20
+42	293	7979888950820397	CMakeFiles/MyProject.dir/main.cpp.obj	bc661d18b2c2699
+294	369	7979888953347172	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_10/ex14/MyProject.exe	b2c799dc12e80279
+12	31	7979889098802482	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_10/ex14/build/CMakeFiles/cmake.verify_globs	727967e1970bea20
+34	290	7979889099034301	CMakeFiles/MyProject.dir/main.cpp.obj	bc661d18b2c2699
+291	375	7979889101612481	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_10/ex14/MyProject.exe	b2c799dc12e80279
+12	32	7979893315212787	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_10/ex14/build/CMakeFiles/cmake.verify_globs	727967e1970bea20
+38	296	7979893315481857	CMakeFiles/MyProject.dir/vect_3.cpp.obj	ff27fe6813755fd6
+34	333	7979893315440032	CMakeFiles/MyProject.dir/main.cpp.obj	bc661d18b2c2699
+334	412	7979893318453981	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_10/ex14/MyProject.exe	b2c799dc12e80279
+12	31	7979893523314716	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_10/ex14/build/CMakeFiles/cmake.verify_globs	727967e1970bea20
+33	305	7979893523527512	CMakeFiles/MyProject.dir/main.cpp.obj	bc661d18b2c2699
+306	382	7979893526266744	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_10/ex14/MyProject.exe	b2c799dc12e80279
+11	31	7979893844982869	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_10/ex14/build/CMakeFiles/cmake.verify_globs	727967e1970bea20
+36	296	7979893845238857	CMakeFiles/MyProject.dir/vect_3.cpp.obj	ff27fe6813755fd6
+33	320	7979893845197134	CMakeFiles/MyProject.dir/main.cpp.obj	bc661d18b2c2699
+321	410	7979893848088662	C:/Users/alext/Documents/AU/SW2OOP_F26/lecture_10/ex14/MyProject.exe	b2c799dc12e80279

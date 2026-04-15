@@ -8,9 +8,9 @@ T sum(typename std::vector<T>::iterator begin, typename std::vector<T>::iterator
 
     T res = initial_sum;
 
-    for(begin; begin != end; begin++)
+    for(; begin != end; begin++)
     {
-        res += begin;
+        res += *begin;
     }
 
     return res;
