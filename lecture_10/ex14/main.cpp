@@ -3,8 +3,7 @@
 #include "sum.h"
 #include <vector>
 
-#define OPG_NR 15
-
+#define OPG_NR 14
 int main(void)
 {
 #if OPG_NR == 14
@@ -15,6 +14,11 @@ int main(void)
     vect v4(5.0 ,6.0);
 
     // std::cout << v4.to_string() << std::endl;
+
+    vect V5(1.2, 2.3);
+    vect V6(1.1 ,2.3);
+
+
 
 
 
