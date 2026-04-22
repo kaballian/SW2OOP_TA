@@ -12,7 +12,7 @@ vehicle() : fuel_consumption(0), fuel_capacity(0){}
 vehicle(double consumption, double capacity) : fuel_consumption(consumption), fuel_capacity(capacity){}
 
 
-std::string to_string(void);
+std::string to_string(void)const;
 double range();
 
 };
