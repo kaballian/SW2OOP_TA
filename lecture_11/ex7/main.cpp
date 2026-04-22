@@ -3,7 +3,7 @@
 #include "car.h"
 #include "hybrid_car.h"
 
-#define OPG_NR 1
+#define OPG_NR 2
 
 int main(void)
 {
@@ -16,6 +16,11 @@ int main(void)
 
     std::cout << hc1.to_string() << std::endl;
     std::cout << hc2.to_string() << std::endl;
+
+
+#elif OPG_NR == 2
+
+
 
 #endif
     
