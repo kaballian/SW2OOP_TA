@@ -20,7 +20,12 @@ int main(void)
 
 #elif OPG_NR == 2
 
+    try{
 
+    }catch(const std::invalid_argument& e)
+    {
+        
+    }
 
 #endif
     
