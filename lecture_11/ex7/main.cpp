@@ -2,8 +2,12 @@
 #include "vehicle.h"
 #include "car.h"
 #include "hybrid_car.h"
+#include "account.h"
+#include "savings_account.h"
+#include "credit_account.h"
 
-#define OPG_NR 2
+
+#define OPG_NR 3
 
 int main(void)
 {
@@ -21,11 +25,18 @@ int main(void)
 #elif OPG_NR == 2
 
     try{
+        savings_account sa1(400);
+        savings_account sa2;
 
     }catch(const std::invalid_argument& e)
     {
         
     }
+
+#elif OPG_NR == 3
+
+
+
 
 #endif
     
