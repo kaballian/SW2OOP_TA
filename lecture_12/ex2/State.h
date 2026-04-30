@@ -3,7 +3,7 @@
 #include "Signal.h"
 class State
 {
-    private:
+    protected:
     State() = default;
     ~State() = default;
 

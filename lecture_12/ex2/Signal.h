@@ -1,9 +1,18 @@
 #pragma once
 
 #include "State.h"
+#include "Stop.h"
+// #include "Go.h"
+// #include "Ready.h"
+// #include "Clear.h"
+
 class Signal
 {
     private:
+
+    Stop _stopState;
+    Stop _go;
+
     State* stopState;
     State* readyState;
     State* clearState;
@@ -18,10 +27,10 @@ class Signal
 
 
     void shift();
-    State getReady(){return this->readyState};
-    State getGo();
+    State getReady();
+    State* getGo(){return goState; }
     State getClear();
-    State getStop();
+    State* getStop(){return stopState; }
     void setState(State*);
 
 };
